@@ -1,0 +1,46 @@
+function setup() {
+  createCanvas(300, 300);
+  background(225,0,0);
+ 
+	var a = color(240,240,240);
+	fill(a);  
+	noStroke();  
+	rect(0, 0, 50, 200);  
+  
+	fill(a);  
+	noStroke();  
+	rect(50, 135, 200, 200);   
+  
+  
+ 	var b = color(0,0,190);
+	fill(b);  
+	noStroke();  
+	rect(0, 135, 50, 70);    
+  
+  var c = color(244, 223, 66);
+	fill(c);  
+	noStroke();  
+	rect(180, 170, 180, 70);  
+  
+	var d = color(40, 40, 40);
+	fill(d);  
+	noStroke();  
+	rect(43, 0, 8, 200);  
+  
+  	fill(d);  
+	noStroke();  
+	rect(0, 135, 200, 8);  
+  
+  	fill(d);  
+	noStroke();  
+	rect(0, 65, 50, 12);  
+  
+  	fill(d);  
+	noStroke();  
+	rect(180, 165, 50, 10);  
+  
+  	fill(d);  
+	noStroke();  
+	rect(177, 135, 7, 90);  
+
+}
